@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: rgb(17, 124, 143);
+    text-align: center;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    padding: 8px;
+    background-color: rgba(241, 205, 1, 0.767);
+}
+
+h2{
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color:rgb(231, 231, 231);
+    padding: 5px 20px 15px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select,
+textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 15px;
+    border: none;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(8, 77, 8, 0.836);
+
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+    padding: 2pxpx;
+    text-align: center;
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+    color: royalblue;
+}
+
+a{
+    padding: 15px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
