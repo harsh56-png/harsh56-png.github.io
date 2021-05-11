@@ -91,3 +91,8 @@ header{
     display:block;
     clear: both;
 }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
