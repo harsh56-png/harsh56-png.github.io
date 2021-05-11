@@ -82,8 +82,8 @@ header{
 
 .column{
     float: left;
-    width: 21%;
-    padding: 25px;
+    width: 24%;
+    padding: 30px;
 }
 
 .row::after{
