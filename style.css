@@ -88,6 +88,6 @@ header{
 
 .row::after{
     content: "";
-    display: table;
+    display:block;
     clear: both;
 }
